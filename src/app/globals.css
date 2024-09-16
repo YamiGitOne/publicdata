@@ -25,3 +25,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.tooltip {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #d3d3d3;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none; /* Hace que el tooltip no interfiera con el ratón */
+}
+
