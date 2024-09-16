@@ -61,11 +61,11 @@ const UsagesChart = () => {
     .attr('class', 'x-axis')
     .attr('transform', `translate(0,${chartHeight})`)
     .call(d3.axisBottom(x))
-    .selectAll('text')  // Selecciona todas las etiquetas de texto del eje
-    .attr('transform', 'rotate(-45)')  // Gira los textos 45 grados (puedes cambiar el ángulo si lo deseas)
-    .style('text-anchor', 'end')  // Ajusta la alineación para que el texto se vea bien
-    .attr('dx', '-0.8em')  // Ajusta la posición horizontal
-    .attr('dy', '0.15em'); // Ajusta la posición vertical
+    .selectAll('text') 
+    .attr('transform', 'rotate(-45)')
+    .style('text-anchor', 'end') 
+    .attr('dx', '-0.8em') 
+    .attr('dy', '0.15em')
 
     // Add y-axis
     g.append('g')
